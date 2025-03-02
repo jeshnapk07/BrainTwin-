@@ -8,9 +8,7 @@ MedSAM is a type of Generative AI because it can automatically "generate" segmen
 
 It works like a smart assistant for doctors—just by pointing to a spot on an MRI or CT scan, MedSAM predicts and draws the correct shape of an organ or tumor, saving time and effort. This makes it a powerful AI tool for medical imaging.
 
-
 This code creates a 3D MRI model from multiple 2D JPG slices using:
-
 1️⃣ OpenCV – Reads and processes 2D MRI images.
 2️⃣ NumPy – Stacks the 2D images into a 3D volume.
 3️⃣ NiBabel – Saves the 3D model as a NIfTI (.nii.gz) file, which can be viewed in medical imaging tools like ITK-SNAP.
