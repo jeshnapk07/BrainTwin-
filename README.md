@@ -10,7 +10,9 @@ It works like a smart assistant for doctors—just by pointing to a spot on an M
 
 This code creates a 3D MRI model from multiple 2D JPG slices using:
 1️⃣ OpenCV – Reads and processes 2D MRI images.
+
 2️⃣ NumPy – Stacks the 2D images into a 3D volume.
+
 3️⃣ NiBabel – Saves the 3D model as a NIfTI (.nii.gz) file, which can be viewed in medical imaging tools like ITK-SNAP.
 
 This helps doctors and researchers see and analyze MRI scans in 3D.
